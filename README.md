@@ -14,11 +14,7 @@ You can access the data in two ways:
 
 In R, providing you use the Tidyverse, you can import any CSV file with the following code:
 
-```
-library(tidyverse)
-
-imported_csv <- read_delim("https://github.com/simardcasanova/repec-logec/raw/main/csv/nb_items_month.csv", delim = ",")
-```
+`imported_csv <- read_delim("https://github.com/simardcasanova/repec-logec/raw/main/csv/nb_items_month.csv", delim = ",")`
 
 Change the last part of the URL according to the CSV file you need.
 
