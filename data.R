@@ -54,3 +54,7 @@ write_csv(part_serv_dl_total, "csv/part_serv_dl_total.csv", na = "")
 
 write_csv(part_serv_ab_views_month, "csv/part_serv_ab_views_month.csv", na = "")
 write_csv(part_serv_ab_views_total, "csv/part_serv_ab_views_total.csv", na = "")
+
+# Test online files ----
+
+test_import_raw <- read_delim("https://github.com/simardcasanova/repec-logec/raw/main/csv/nb_items_month.csv",delim = ",")
