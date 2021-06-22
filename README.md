@@ -16,7 +16,7 @@ In R, providing you use the Tidyverse, you can import any CSV file with the foll
 
 `imported_csv <- read_delim("https://github.com/simardcasanova/repec-logec/raw/main/csv/nb_items_month.csv", delim = ",")`
 
-Change the last part of the URL according to the CSV file you need.
+Change the last part of the URL according to the CSV file you need. All available CSV files are listed in the [`csv` folder](https://github.com/simardcasanova/repec-logec/tree/main/csv).
 
 ## What I do
 
